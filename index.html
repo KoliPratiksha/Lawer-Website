@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+
+    <nav>
+        <div class="navbar">
+            <div class="left">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+                <img src="./logo.png" alt="">
+            </div>
+            <div class="right d-flex flex-row justify-content-end ">
+                <a class="nav-link active text-dark fw-bold" aria-current="page" href="#">HOME</a>
+                <a class="nav-link text-dark fw-bold" href="#">PAGES</a>
+                <a class="nav-link text-dark fw-bold" href="#">PRACTISE AREA</a>
+                <a class="nav-link text-dark fw-bold" href="#">ATTORENYES</a>
+                <a class="nav-link text-dark fw-bold" href="#">BLOG</a>
+                <a class="nav-link text-dark fw-bold" href="#">SHORTCODES</a>
+                <button class="btn "><a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./slider-1-full.jpg" class="d-block w-100" alt="...">
+                <div
+                    class="carousel-caption d-none d-md-flex top-0 flex-column justify-content-center align-items-start  start-0 bottom-0  ms-5">
+                    <h2 class="fw-bold text-danger fst-italic fs-2">Welcome to </h2>
+                    <h2 class="fw-bold text-dark fs-1">LAWER BASE</h2>
+                    <p class="text-dark fs-5">Some representative placeholder content for the first slide.</p>
+                    <button type="button" class="btn btn-danger btn-lg">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./slider-2-full.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="fw-bold text-danger fst-italic fs-2">We Are The Best</h2>
+                    <h2 class="fw-bold text-light fs-1">LAW FIRM IN NEW YORK</h2>
+                    <button class="btn text-danger fs-5 fst-italic">Learn More</button>>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./slider-3-full.jpg" class="d-block w-100" alt="...">
+                <div
+                    class="carousel-caption d-none d-md-flex  flex-column end-0 bottom-0 top-0 justify-content-center align-items-end me-5">
+                    <h2 class="fs-bold text-danger fst-italic  fs-2">Full Services</h5>
+                        <h2 class="fw-bold text-dark fs-1">LAW FIRM</h2>
+                        <p class="text-dark fs-5 ">Some representative placeholder content for the third slide.</p>
+                        <button type="button" class="btn btn-danger btn-lg">Large button</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 bg-danger ">
+                    <i class="fa-solid fa-book "></i>
+                    <h2 class="text-light text-center">We are the best full-service<br>firm based in New York</h2>
+                    <p class="text-light p-4 ">Lawyer base has more than 20 years of experiences in this feild and we
+                        have
+                        solved more than 2000 cases. Every case is very important to us and we always take care of them
+                        seriously. We have 98% of happy clients.</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center flex-column ">
+                    <h3 class="text-dark  text-center">Something About Us</h3>
+                    <p class="text-dark text-center">Pellentesque Adipiscing Purus</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Service Section -->
+    <div id="service">
+        <div class="container-fluid bg-dark p-5">
+            <div class="row">
+                <div class="col-md-4 my-5 ">
+                    <img src="./jack-smith.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card mb-3 bg-dark mt-5" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 mt-4 p-5">
+                                       
+                                        <i class="fa-solid fa-car" style="color: #f9fafa;"></i>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-light">Ultricies Ipsum</h5>
+                                            <p class="card-text text-light">Fusce dapibus, tellus ac cursus commodo,tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Sed posuere consec.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="card mb-3 bg-dark mt-5" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 mt-4 p-5">
+                                        <i class="fa-regular fa-basketball p-4" style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-light">Tristique Purus Ridiculus</h5>
+                                            <p class="card-text text-light">Fusce dapibus, tellus ac cursus commodo,tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Sed posuere consec.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="card mb-3 bg-dark mt-5" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 mt-2 p-5 ">
+                                        <i class="fa-solid fa-person" style="color: #eef1f6;"></i>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-light">Vehicula Malesuada Nullam</h5>
+                                            <p class="card-text text-light">Fusce dapibus, tellus ac cursus commodo,tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Sed posuere consec.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="card mb-3 bg-dark mt-5" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 mt-2 p-5">
+                                        <i class="fa-solid fa-truck-medical" style="color: #eff1f5;"></i>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-light">Sollicitudin Magna</h5>
+                                            <p class="card-text text-light">Fusce dapibus, tellus ac cursus commodo,tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Sed posuere consec.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+
+    <div id="contact" class="container-fluid mt-5">
+        <h3 class="fs-3 fst-italic text-center">Are you having any problems but can’t consult to anyone?</h3>
+        <h6 class="text-danger text-center p-3">Talk to us! We promise we can help you! Call Now! (1)223-3344-334</h6>
+        <div class="image d-flex justify-content-center">
+            <img src="./phone-solid.svg" style="height: 30px;" alt="">
+        </div>
+
+        <h3 class="text-center mt-5 fw-bold fs-2">Legal Practice Areas</h3>
+        <h6 class="text-center mt-4 text-danger fst-italic">We All Practices</h6>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./slider-1-full.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text fw-bold text-center text-light ">Bank Financial</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./How-a-Car-Accident-Can-Impact-Your-Car-Insurance-Rate-1400x933-1.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text fw-bold text-center text-light">Car Accident</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./personal-injury-lawyer.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text text-center fw-bold text-light">Personal Injury</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./four-persons-having-a-discussion.png" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text text-center fw-bold text-light">Family Law</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./Agency-webinar-summer-thumb.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text fw-bold text-center text-light ">Capital Market</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./empresaria-lider-oficina-moderna-workpeople-empresarios-miami.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text fw-bold text-center text-light ">Employment Law</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./Corporate-Knowledge-Management.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text fw-bold text-center text-light ">Corporate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./What-are-Four-Methods-of-Dispute-Resolution.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body bg-dark">
+                            <p class="card-text fw-bold text-center text-light ">Dispulate Resolution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form section -->
+    <div class="container-fluid bg-dark mt-5">
+        <div id="form" class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 mt-5 ">
+                    <h1 class="text-center text-light fw-bold">Don't hesitate to ask</h1>
+                    <h6 class="text-center text-light ">Law is complicate matter. It can cause you a big problem<br>
+                        if you ignore it. Let us help you!</h6>
+
+                    <!-- form  -->
+                    <form>
+                        <input placeholder="Name*" type="text" class="form-control mt-5 pb-4 ">
+                        <input placeholder=" Email*" type="email" class="form-control mt-5 pb-4">
+                        <textarea placeholder=" Subject* " class="form-control mt-5 pb-4"></textarea>
+                        <textarea placeholder=" Message* " class="form-control pb-5 mt-5"></textarea>
+                        <input type="submit" value="Submit" class="btn btn-danger  mt-5 pb-2">
+                        
+                    </form>
+                </div>
+                <div class="col-md-6 mt-5 ">
+                    <img src="./women-contact.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- doctors -->
+
+    <div id="doctor" class="container-fluid mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./attorney-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-light">
+                            <h4 class="fw-5 text-center text-dark  ">Jack Smith</h4>
+                            <p class="text fst-italic text-dark ms-3">Bank & Financial Lawyer</p>
+                            <p class="card-text text-center text-dark  ">Biography Cras justo odio, dapibus ac facilisis
+                                in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl...</p>
+                            <p class="text-danger text-center fw-bold">READ PROFILE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./attorney-6-1200x900.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-light">
+                            <h4 class="card-text  text-center text-dark ">Janet Jones</h4>
+                            <p class="text fst-italic text-dark ms-3">Bank & Financial Lawyer</p>
+                            <p class="card-text  text-center text-dark ">Biography Cras justo odio, dapibus ac facilisis
+                                in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl...</p>
+                            <p class="text-danger text-center fw-bold">READ PROFILE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./attorney-3-1200x900.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-light">
+                            <h4 class="card-text  text-center text-dark ">Eric Peterson</h4>
+                            <p class="text fst-italic text-dark ms-3">Bank & Financial Lawyer</p>
+                            <p class="card-text  text-center text-dark ">Biography Cras justo odio, dapibus ac facilisis
+                                in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl...</p>
+                            <p class="text-danger text-center fw-bold">READ PROFILE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./attorney-2-700x380.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-light">
+                            <h4 class="card-text  text-center text-dark ">Marisa GoldBerg</h4>
+                            <p class="text fst-italic text-dark ms-3">Bank & Financial Lawyer</p>
+                            <p class="card-text  text-center text-dark ">Biography Cras justo odio, dapibus ac facilisis
+                                in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl...</p>
+                            <p class="text-danger text-center fw-bold">READ PROFILE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  clients -->
+    <div id="client container-fluid">
+        <h1 class="text-center mt-5">Some Of Our Clients</h1>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./banner-2.jpg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./banner-3.jpg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./banner-4.jpg" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./banner-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer " class="container-fluid bg-dark  ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-3 mt-5">
+                    <h5 class="fw-bold text-light  fst-italic">About Us</h5>
+                    <p class="text-light mt-4">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Morbi leo risus, porta.</p>
+                    <i class="fa-brands fa-facebook p-1" style="color: #f1f2f3;"></i>
+                    <i class="fa-brands fa-twitter p-1" style="color: #f5f9ff;"></i>
+                    <i class="fa-brands fa-linkedin p-1" style="color: #fafcff;"></i>
+                    <i class="fa-brands fa-googlep-1 p-1" style="color: #f7f7f7;"></i>
+                    <i class="fa-brands fa-instagram p-1" style="color: #fafcff;"></i>
+                    <i class="fa-brands fa-whatsapp p-1" style="color: #f7f7f7;"></i>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5 class="fw-bold text-light text-center fst-italic">Recent News</h5>
+                    <div class="d-flex flex-column mt-4 ms-5">
+                        <a href="" class="text-light text-decoration-none mt-1 "><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Sem Ports Mollis Parturient</a>
+                        <a href="" class="text-light text-decoration-none mt-2  "><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Nullam Lorem Mattis Purus</a>
+                        <a href="" class="text-light text-decoration-none mt-2 "><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Nibh Sem Ullamcorper</a>
+                        <a href="" class="text-light text-decoration-none mt-2 "><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Donec Luctus imper diet</a>
+                        <a href="" class="text-light text-decoration-none mt-2"><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Magna pars studiorum</a>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5 class="fw-bold text-light text-center fst-italic ">Contact Info</h5>
+                    <div class="ms-5">
+                        <p class="text-light text-center mt-4">Address: 184 Main Collins Street West Victoria 8007<p></p>
+                        <p class="text-light text-center me-4"> <i class="fa-solid fa-phone"
+                                style="color: #f1f4f9;"></i> +1800-222-3333</p>
+                        <p class="text-light text-center me-4"><i class="fa-solid fa-mobile-screen"
+                                style="color: #f0f2f4;"></i> +1833-232-3443</p>
+                        <p class="text-light text-center ms-3 "><i class="fa-solid fa-envelope " style="color: #f7f9fd;"></i> sales@hotelmastert.com</p>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h5 class="fw-bold text-light text-center fst-italic">Business Overview</h5>
+                    <div class=" text d-flex ms-5 flex-column mt-4 ">
+                        <a href="" class="text-light p-1 text-decoration-none"><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Attorneys</a>
+                        <a href="" class="text-light p-1 text-decoration-none"><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Practise Area</a>
+                        <a href="" class="text-light p-1 text-decoration-none"><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Careers</a>
+                        <a href="" class="text-light p-1 text-decoration-none"><i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Honors & Awards</a>
+                        <a href="" class="text-light p-1 text-decoration-none"> <i class="fa-solid fa-angle-right fa-sm p-1" style="color: #fafafa;"></i> Q & A</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
