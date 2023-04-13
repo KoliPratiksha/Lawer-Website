@@ -6,14 +6,27 @@
     border-radius: 50%;
     border-color: black;
 }
-/* .container-fluid .img{
-    height:4rem;
-    width: 5rem;
-} */
+
 .card img{
     height: 30vh;
 }
-
+@media screen and (max-width:768px) {
+    .right a{
+        display: none;
+    }
+    .right .btn{
+        display: none;
+    }
+    .footer1 , a{
+        display: none;
+    }
+    .foot{
+        display: none;
+    }
+    #form .col-md-6 img{
+        display: none;
+    }
+}
 
 
 
